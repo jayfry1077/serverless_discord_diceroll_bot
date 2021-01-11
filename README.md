@@ -69,7 +69,7 @@ description: Amount of dice you want to roll
 ### maximum:
 
 required: True
-description: Higher number on the die
+description: Highest number on the die
 
 ### minimum:
 

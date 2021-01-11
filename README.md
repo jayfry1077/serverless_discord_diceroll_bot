@@ -4,7 +4,7 @@ This is a simple bot that will return some dice roll results to dicord!
 
 # Example 1:
 
-![roll_1](roll1.PNG)
+![roll_1](roll_1.PNG)
 ![roll_1_result](roll_1_result.PNG)
 
 # Example 2:

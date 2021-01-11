@@ -2,6 +2,8 @@
 
 This is a simple bot that will return some dice roll results to dicord!
 
+It's in the title, but this is serverless, there is no EC2 istance running 24/7. You only pay for the request you make!
+
 # Example 1:
 
 ![roll_1](roll_1.PNG)

@@ -1,0 +1,19 @@
+{
+  "name": "serverless_discord_diceroll_bot",
+  "version": "1.0.0",
+  "description": "Roll some dice!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayfry1077/serverless_discord_diceroll_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayfry1077/serverless_discord_diceroll_bot/issues"
+  },
+  "homepage": "https://github.com/jayfry1077/serverless_discord_diceroll_bot#readme"
+}

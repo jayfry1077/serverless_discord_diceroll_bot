@@ -12,37 +12,19 @@ bot_key = os.getenv('bot_key')
 
 
 json = {
-    "name": "DND",
-    "description": "Dungeons and Dragons!",
+    "name": "botbury",
+    "description": "A Helpful Bot!",
     "options": [
         {
-            "name": "roll",
-                    "description": "Create a group.",
+            "name": "signup",
+                    "description": "Sign-up a user for discord and guilded alerts.",
                     "type": 1,
                     "options": [
                         {
-                            "name": "quantity",
-                            "description": "Number of dice.",
+                            "name": "username",
+                            "description": "twitch user name found at the end of their url",
                             "type": 3,
                             "required": True
-                        },
-                        {
-                            "name": "maximum",
-                            "description": "Highest number on the die",
-                            "type": 3,
-                            "required": True
-                        },
-                        {
-                            "name": "minimum",
-                            "description": "Lowest number on the die.",
-                            "type": 3,
-                            "required": False
-                        },
-                        {
-                            "name": "modifier",
-                            "description": "Any amount to add to the roll.",
-                            "type": 3,
-                            "required": False
                         }
                     ]
         }
@@ -73,7 +55,7 @@ def delete_commands(url):
     print(r.content)
 
 
-# update_commands(f"https://discord.com/api/v8/applications/{bot_id}/commands")
+update_commands(f"https://discord.com/api/v8/applications/{bot_id}/commands")
 # get_commands(f"https://discord.com/api/v8/applications/{bot_id}/commands")
 # delete_commands(
 #     f"https://discord.com/api/v8/applications/{bot_id}/commands/795912485793431583")
